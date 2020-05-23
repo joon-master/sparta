@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- 구글폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="b.css">
+    <script>
+        function summitcllik(){
+            alert("주문이 완료 되었습니다.")
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <div class="mainbox">
+            <div class="imgbox">
+                <img src="http://shop1.phinf.naver.net/20191122_230/1574412142121sn3IU_JPEG/11772880752484183_909956988.jpg"
+                    style="width: 420px; height: 300px;">
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <b>상품 설명</b>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <h3>스파르타 디퓨져</h3>
+                        <h4>가격 : 25,000 원/개</h4>
+                        <p>향기가 좋은 디퓨져 어디서든 어울리는 향기 숙제라서 만들고 있는 디퓨져 판매 사이트 </p>
+                        <footer class="blockquote-footer">일하다 보니 너무나 늦게 올렸다 <cite title="Source Title"></cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col">
+                <h4 class="mr-sm-2" for="inlineFormCustomSelect" style="display: inline;">갯 수 :</h4>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" style="width: 200px;">
+                    <option selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+            </div>
+            <div>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="주문자 이름">
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName3" placeholder="주소">
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="전화번호">
+            </div>
+            <button type="button" class="btn btn-secondary btn-lg" id="summit1" onclick="summitcllik()">주문하기</button>
+        </div>
+</body>
+
+</html>

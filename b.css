@@ -1,0 +1,57 @@
+
+    .mainbox {
+        border: 1px solid black;
+        box-shadow: 2px 2px 4px 2px black;
+        margin: 20px auto;
+        width: 600px;
+        height: 1100px;
+    }
+
+    .imgbox {
+
+        margin: 40px auto;
+        width: 420px;
+        height: 330px;
+        box-shadow: 2px 2px 2px 2px gray;
+    }
+
+    .card {
+
+        margin-top: 10px;
+        margin-left: 80px;
+        width: 440px;
+        height: 250px;
+    }
+
+    .card-header {
+        font-family: 'Stylish', sans-serif;
+    }
+
+    .blockquote {
+        font-size: 12pt;
+
+    }
+
+    h4,
+    h3 {
+        font-family: 'Stylish', sans-serif;
+    }
+
+    .col {
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+    #inlineFormInputName2{
+        width: 280px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    #inlineFormInputName3{
+        width: 440px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    #summit1{
+        margin-top: 50px;
+        margin-left: 250px;
+    }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jQuery 임포트 구간 CDN을 이용 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>스파르타코딩클럽 | 자바스크립트 복습</title>
+    <script>
+        let num = 0;
+        function handleClick() {
+            num += 1;
+            if (num%2 ==0) {
+                alert("짝수 번째 입니다.")
+            }else{
+                alert("홀수 번째 입니다.")
+            }
+        }
+    </script>
+    
+</head>
+
+<body>
+    <button onclick="handleClick()">이 버튼을 눌러보세요</button>
+</body>
+
+</html>
